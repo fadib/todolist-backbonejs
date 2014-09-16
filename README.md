@@ -1,8 +1,19 @@
 # Todolist-BackboneJS
-Todolist app using Backbone.js
+Improved Todolist app using Backbone.js + Handlebars
 
-# License
+### We'll need:
+* a Todo model to describe individual todo items
+* a TodoList collection to store and persist todos
+* a way of creating todos
+* a way to display a listing of todos
+* a way to edit existing todos
+* a way to mark a todo as completed
+* a way to delete todos
+* a way to filter the items that have been completed or are remaining
+* _a way to mark a todo as starred_
+* _a way to filter the items that are starred_
 
+***
 The MIT License (MIT)
 
 Copyright (c) 2014 Fahmi Adib
