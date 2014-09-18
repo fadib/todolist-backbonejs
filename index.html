@@ -28,6 +28,7 @@
 		<div class="view">
 			<input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %>>
 			<label><%= title %></label>
+			<button class="ratings"></button>
 			<button class="destroy"></button>
 		</div>
 		<input class="edit" value="<%= title %>">
@@ -37,6 +38,7 @@
 		<ul id="filters">
 			<li><a class="selected" href="#/">All</a></li>
 			<li><a href="#/active">Active</a></li>
+			<li><a href="#/starred">Starred</a></li>
 			<li><a href="#/completed">Completed</a></li>
 		</ul>
 		<% if (completed) { %>

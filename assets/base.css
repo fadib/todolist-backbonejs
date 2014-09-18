@@ -255,6 +255,22 @@ label[for='toggle-all'] {
 	text-decoration: line-through;
 }
 
+#todo-list li .ratings {
+	background: url(star-off.png) no-repeat;
+	position: absolute;
+	top: 0;
+	right: 50px;
+	bottom: 0;
+	width: 16px;
+	height: 16px;
+	margin: auto 0;
+	cursor: pointer;
+}
+
+#todo-list li .starred {
+	background: url(star-on.png) no-repeat !important;
+}
+
 #todo-list li .destroy {
 	display: none;
 	position: absolute;

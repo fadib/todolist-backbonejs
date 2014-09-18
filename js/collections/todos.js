@@ -10,6 +10,12 @@ var TodoList = Backbone.Collection.extend({
     });
   },
   
+  starred: function() {
+    return this.filter(function( todo ) {
+      return todo.get('starred');
+    });
+  },
+  
   remaining: function() {
     return this.without.apply(this, this.completed());
   },
